@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/Information"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/imageView3" />
+    <TextView
+        android:text="¿Quiénes somos?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/txtAboutUs" />
+    <TextView
+        android:text="La empresa Farma Stetic YJ, es una empresa colombiana dedicada a la comercialización y dispensación de medicamentos, nutrición, belleza, dispositivos médicos, productos para el cuidado de paciente en casa y productos para la salud."
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/txtInformationAboutWhoWeAre" />
+
+    <TextView
+        android:text="Ubicación"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/txtLocation" />
+
+    <TextView
+        android:text="FARMA STETIC YJ concentra su sede administrativa en la ciudad de Medellín Calle 50 # 45-31, Medellín, Antioquia y tiene operaciones en todo el territorio colombiano."
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/txtLocationInformation" />
+
+    <TextView
+        android:text="Contacto"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/txtContact" />
+
+    <TextView
+        android:text="313 6525453 - 3175609876"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="30dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/txtContactNumbers" />
+
+
+
+
+
+
+</LinearLayout>

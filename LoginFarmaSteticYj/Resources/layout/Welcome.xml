@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="¡BIENVENIDO A FARMA STETIC YJ!"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="45.0dp"
+        android:id="@+id/txtVwWelcome" />
+
+    <ImageView
+        android:src="@drawable/Welcome"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:text="En el 2023 ser la empresa líder en Colombia en la comercialización y dispensación de medicamentos, nutrición, belleza, dispositivos médicos productos para el cuidado del paciente en casa y productos para la salud apalancados en el conocimiento técnico y humano de nuestro personal."
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:id="@+id/txtVwintroduction" /> 
+
+     <Button
+        android:text="Nuestra Empresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/colorPrimary"
+        android:id="@+id/btnInformation" /> 
+
+    <Button
+        android:text="Realizar pedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?android:attr/colorPrimary"
+        android:id="@+id/btnMakeAnOrder" />
+    
+    
+    
+
+</LinearLayout>
